@@ -30,6 +30,18 @@ public class Main {
         double media = soma / notas.length;
         System.out.println("Média da turma: " + media);
 
+        System.out.println();
+
+        String nome = "Maria";
+        int idade = 17;
+        double notaFinal = 8.6;
+        boolean passou = notaFinal >= 6.0;
+
+        System.out.println("Aluno: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Nota Final: " + notaFinal);
+        System.out.println("Passou? " + passou);    
+
 
     }
 }
